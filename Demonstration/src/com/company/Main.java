@@ -18,7 +18,7 @@ public class Main {
         myDriver.get("https://www.rodo.com");
         myDriver.manage().window().maximize();
 
-        String email = "114test12@testmail.com";
+        String email = "1119test1@testmail.com";
         String password = "374502Qq!";
         System.out.println(registration(myDriver, email, password));
         System.out.println(logout(myDriver));
